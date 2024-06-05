@@ -91,3 +91,79 @@ body {
   margin-bottom: 1rem;
   margin-left: 50px;
 }
+.animais-lista {
+  height: 370px;
+  overflow-y: scroll;
+  grid-column: 2;
+}
+.animais-lista::-webkit-scrollbar {
+  width: 18px;
+}
+.animais-lista::-webkit-scrollbar-thumb {
+  background: #fb5;
+  border-left: 4px solid #faf6ed;
+  border-right: 4px solid #faf6ed;
+}
+.animais-description {
+  grid-column: 3;
+}
+.animais-description section {
+  margin-bottom: 3rem;
+}
+.faq-lista {
+  grid-column: 2 / 4;
+}
+.faq-lista dt {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  color: #e54;
+}
+.faq-lista dt::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 10px;
+  background: #fb5;
+  margin-right: 10px;
+}
+.faq-lista dd {
+  margin-left: 30px;
+  font-family: Helvetica, Arial;
+  margin-bottom: 0.5rem;
+}
+.mapa {
+  grid-column: 2;
+}
+.dados {
+  grid-column: 3;
+}
+.dados li {
+  margin-bottom: 1rem;
+  font-family: Helvetica, Arial;
+}
+.dados li a {
+  margin-bottom: 1rem;
+  font-family: Helvetica, Arial;
+  text-decoration: none;
+  color: #e54;
+}
+.dados li::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 10px;
+  background: #fb5;
+  margin-right: 10px;
+}
+.copy {
+  grid-column: 3 / 5;
+  background: #fb5;
+
+  margin-bottom: 2rem;
+}
+.copy p {
+  padding: 20px;
+  font-family: "IBM Plex Mono", monospace;
+}
